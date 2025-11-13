@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #ccc;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.product-card {
+    flex: 1 1 200px; /* ✅ แก้ให้ถูกต้อง */
+    min-height: 100px;
+    background-color: #eee; /* เปลี่ยนสีให้อ่านง่ายขึ้น */
+    border: 1px solid #999;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
